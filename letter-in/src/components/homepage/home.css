@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #85ebac;
+}
+
+.home-page{
+    width: 100%;
+    background: #85ebac;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1px 2px 2px orangered;
+    height: 70px;
+}
+
+.imagelogo{
+    width: 30%;
+}
+
+.image-logo {
+    height: 50px;
+    margin-top: 15px;
+}
+
+.mart{
+    color: #019c3d;
+    -webkit-text-stroke: 0.4px orangered;
+}
+
+.bag{
+    color: orangered;
+}
+
+.dash{
+    color: #fff;
+}
+
+.navbar{
+    width: 50%;
+}
+
+.home-nav ul {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 200px;
+} 
+
+.home-nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.logining {
+    padding: 14px;
+    border-radius: 7px;
+    color: white;
+    background: orangered;
+}
+
+.logout{
+    color: white;
+    background: orangered;
+    border: none;
+}
+
+.logining:hover {
+    background: brown;
+}
+
+.logout:hover{
+    background: brown;
+}
+
+.useremail{
+    color: rgb(56, 50, 50);
+}
+
+.inputhome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.input-tag {
+    height: 20px;
+    width: 250px;
+    background: whitesmoke;
+    border: none;
+    /* border: 3px solid white; */
+}
+
+.input-tag:hover {
+    background: blanchedalmond;
+}
+
+.over-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.writeup{
+    color: black;
+    font-size: x-large;
+}
+
+.first{
+    padding-left: 30px;
+}
+
+.second{
+    padding-left: 200px;
+}
+
+label{
+    color: rgb(31, 27, 27);
+}
+
+.message {
+    height: 300px;
+    width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.messagess{
+    color: black;
+}
+
+.messagessss{
+    color: black;
+}
+
+.imagelogos {
+    height: 300px;
+    width: 400px;
+    border-radius: 7px;
+    box-shadow: 0 0 3px 3px #22ca76;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .over-all{
+        display: flex;
+        flex-direction: column;
+    }
+}

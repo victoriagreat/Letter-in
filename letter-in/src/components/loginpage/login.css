@@ -1,0 +1,28 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+.center-page {
+    background: orangered;
+    width: 500px;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.label {
+    margin-top: 30px;
+}
+
+.btnlog{
+    border: none;
+    background-color: #85ebac;
+}
+
+.linklog{
+    color: #85ebac;
+    text-decoration: none;
+}
