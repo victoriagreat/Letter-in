@@ -45,7 +45,7 @@ export default function Home() {
                     <div className='writeup'>
                         <h2 className='first'>Stay Motivated,</h2>
                         <h2 className='second'> each morning with ReadMe quotes.</h2>
-                        <p className='first'>Enjoy some short, beautiful and meaningful quotes about life..</p>
+                        <p className='third'>Enjoy some short, beautiful and meaningful quotes about life..</p>
                     </div>
                     <div className='inputhome'>
                         <form onSubmit={() => e.preventDefault()}>
